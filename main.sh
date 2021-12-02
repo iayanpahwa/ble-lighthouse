@@ -11,14 +11,14 @@ then
 	echo "creating ble beacon with url: $URL"
 	hciconfig hci0 leadv 3
 	hciconfig hci0 noscan
-	PyBeacon -u $URL
+	PyBeacon -u $URL 2> /dev/null
 	sleep 1
 else
 # Turn off advertising mode
 	hciconfig hci0 noleadv
 fi
 
-
+while true; do sleep 5000; done
 
 
 
