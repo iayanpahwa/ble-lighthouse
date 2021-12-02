@@ -8,12 +8,12 @@ RUN cd PyBeacon && python3 setup.py install
 
 # env variables:
 # ADVERTISE : TRUE / FALSE
-# BEACON_TYPE : URL / UUID / RAW
+# BEACON_TYPE : URL / UID (16 bytes) / RAW (4 bytes)
 
 ENV ADVERTISE='TRUE'
 ENV BEACON_TYPE='URL'
 ENV URL='https://hub.balena.io'
-ENV UUID='01234567890123456789012345678901'
+ENV UID='01234567890123456789012345678901'
 
 WORKDIR /usr/src/app
 COPY main.sh main.sh
