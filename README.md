@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/iayanpahwa/ble-lighthouse/master/assets/ble-lighthouse.png)
 
-** Make fleet of bluetooth low energy beacons using and manage them centrally via balenaCloud**
+**Make fleet of bluetooth low energy beacons using and manage them centrally via balenaCloud**
 
 ## Hardware required
 
@@ -22,23 +22,25 @@ fleet of beacons can be all managed centrally via balenaCloud. Try any of the en
 
 ### ADVERTISE
 
-TRUE - to enable the beacon (advertising) mode
-FALSE - to disable the beacon (advertising) mode
+* TRUE - to enable the beacon (advertising) mode
+* FALSE - to disable the beacon (advertising) mode
 
 ### BEACON_TYPE
 
-URL - broadcasts a webpage URL defined with ```URL``` env variable 
-UID - broadcasts a 16 bytes UID defined with ```UID``` env variable 
-RAW - broadcasts sensor value attached to Pi (WORK IN PROGRESS)
+* URL - broadcasts a webpage URL defined with ```URL``` env variable 
+* UID - broadcasts a 16 bytes UID defined with ```UID``` env variable 
+* RAW - broadcasts sensor value attached to Pi (WORK IN PROGRESS)
 
 ### URL
+
 URL - any web URL (with https://); default is : hub.balena.io
 
 ### UID
+
 UID - any 16 bytes unique ID; default is : 01234567890123456789012345678901
 
 ## How to scan the beacon created
 
 BLE beacons are meant to be used with custom application on ble supported mobile phones, but you can use beacon scanner app to detect them as well. ble beacons can also be detected using scanner applicaitions on phone and the advertised data can be relayed to internet via the gateway. 
 
-For purpose of testing you can use ```beacon scanner``` app on Android device and ```eBeacon``` on ios. these apps should easily detect URL and UID beacons. ```nRF Connect``` is another great app to scan all sort of ble devices incl. ble beacons. 
+For purpose of testing you can use ```beacon scanner``` app on Android device and ```eBeacon``` on ios. these apps should easily detect URL and UID beacons. ```nRF Connect``` is another great app to scan all sort of ble devices including ble beacons. 
