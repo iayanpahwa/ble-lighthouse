@@ -4,7 +4,6 @@ description: >-
   Create ble beacons on single board linux computers using balena.io
 joinable: false
 post-provisioning: >-
-  ## Usage instructions
   **Application download**
   Once you power up your device you'll need to allow some time for it to
   download the application, this typically takes 5-10 minutes but it can take
