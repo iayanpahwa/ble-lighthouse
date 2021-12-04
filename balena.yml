@@ -25,10 +25,10 @@ assets:
         https://raw.githubusercontent.com/iayanpahwa/ble-lighthouse/master/assets/ble-lighthouse.png
 data:
   applicationEnvironmentVariables:
-    - ENV ADVERTISE: 'TRUE'
-    - BEACON_TYPE: 'URL'
-    - URL: 'https://hub.balena.io'
-    - UID: '01234567890123456789012345678901'
+    - ENV ADVERTISE: TRUE
+    - BEACON_TYPE: URL
+    - URL: https://hub.balena.io
+    - UID: 01234567890123456789012345678901
   defaultDeviceType: raspberry-pi
   supportedDeviceTypes:
     - raspberrypi4-64
