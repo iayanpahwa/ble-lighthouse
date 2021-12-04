@@ -2,6 +2,7 @@ name: ble-lighthouse
 type: sw.application
 description: >-
   Create ble beacons on single board linux computers using balena.io
+joinable: false
 post-provisioning: >-
   ## Usage instructions
   **Application download**
