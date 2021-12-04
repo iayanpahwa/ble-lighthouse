@@ -1,12 +1,20 @@
 name: ble-lighthouse
 type: sw.application
 description: >-
-  Create ble beacons on single board linux computers using balena.io
+  Create centrally managed fleet of ble beacons on single board linux computers.
 joinable: false
 post-provisioning: >-
   ## Usage instructions
 
-  When the download is completed the application will start. An default ble beacon
+  **Application download**
+
+  Once you power up your device you'll need to allow some time for it to
+  download the application, this typically takes 3-5 minutes but it can take
+  more depending on your internet connection and what device you are using.
+
+  **Usage**
+
+  When the download is completed the application will start. A default ble beacon
   will be created, broadcasting the URL - https://hub.balena.io , but user can always
   manage and modify the type of beacon from balenaCloud.
 
@@ -20,7 +28,6 @@ assets:
     data:
       url: >-
         https://raw.githubusercontent.com/iayanpahwa/ble-lighthouse/master/assets/ble-lighthouse.png
-        
 data:
   applicationEnvironmentVariables:
     - ENV ADVERTISE: TRUE
