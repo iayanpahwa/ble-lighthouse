@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/iayanpahwa/ble-lighthouse/master/assets/ble-lighthouse.png)
 
-**Make fleet of bluetooth low energy beacons using and manage them centrally via balenaCloud**
+**Make fleet of centrally managed bluetooth low energy(ble) beacons**
 
 ## Hardware required
 
