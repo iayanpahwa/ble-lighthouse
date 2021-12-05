@@ -2,7 +2,6 @@ name: ble-lighthouse
 type: sw.application
 description: >-
   Create centrally managed fleet of ble beacons on single board linux computers.
-joinable: false
 post-provisioning: >-
   ## Usage instructions
 
