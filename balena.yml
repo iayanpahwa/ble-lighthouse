@@ -30,7 +30,7 @@ assets:
         https://raw.githubusercontent.com/iayanpahwa/ble-lighthouse/master/assets/ble-lighthouse.png
 data:
   applicationEnvironmentVariables:
-    - ENV ADVERTISE: TRUE
+    - ADVERTISE: TRUE
     - BEACON_TYPE: URL
     - URL: https://hub.balena.io
     - UID: 01234567890123456789012345678901
