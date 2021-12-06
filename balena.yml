@@ -34,7 +34,9 @@ data:
     - BEACON_TYPE: URL
     - URL: https://hub.balena.io
     - UID: 01234567890123456789012345678901
-  defaultDeviceType: raspberrypi4-64
+  defaultDeviceType: raspberry-pi
   supportedDeviceTypes:
+    - raspberry-pi
+    - raspberrypi0-2w-64
     - raspberrypi4-64
     - fincm3
