@@ -7,6 +7,9 @@ echo $URL
 echo $UID
 echo $RAW
 
+# add hostname to /etc/hosts 
+echo $(hostname -I | cut -d\  -f1) $(cat /etc/hostname) | tee -a /etc/hosts
+
 if [ "$ADVERTISE" == "TRUE" ]
 then
 	if [ "$BEACON_TYPE" == "URL" ]
