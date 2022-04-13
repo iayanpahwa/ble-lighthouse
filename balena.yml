@@ -1,6 +1,6 @@
 name: ble-lighthouse
 type: sw.application
-joinable: false
+joinable: true
 description: >-
   Create centrally managed fleet of ble beacons on single board linux computers.
 post-provisioning: >-
